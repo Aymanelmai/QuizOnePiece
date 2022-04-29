@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity"
+
+
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_marginTop="@dimen/_100sdp"
+
+        android:background="@drawable/onepiecelogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_54sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:background="@drawable/button"
+        android:padding="@dimen/_10sdp"
+        android:text="Start"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_30sdp"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"></Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
